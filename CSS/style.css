@@ -1,0 +1,61 @@
+
+
+
+
+
+
+/* Navigation bar */ 
+
+/* General */
+.custonNAV{
+    position: fixed;
+    width: 100%;
+    background:url(/images/transparency.png); 
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+    
+  } /* Setting the `z-index value` for the `customNav` class ensures that the navbar is above other content on the page. */
+   
+  .navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
+    
+  }
+  
+  .navbar-brand img{
+    padding-right: 15px;
+    width: 80px;
+    height: auto;
+    }
+  
+  .nav-item{
+    margin: 0px 15px;
+    
+  }
+  
+  /* Navigation links */
+  .custonNAV a {
+  color: white !important;
+  
+  }
+  
+  .navCTA {
+    font-size: 15px;
+  }
+  
+  /* navigation drop down menu */
+  
+  .dropdown-menu{
+   
+    background: url(/images/transparency.png);
+    background-color: transparent !important;
+    background-size: cover;
+  }
+  
+  .dropdown-item:focus, .dropdown-item:hover{
+    color: #16181b;
+    text-decoration: none;
+    background: gray;
+  }
+
