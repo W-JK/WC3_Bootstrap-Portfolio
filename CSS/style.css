@@ -1,18 +1,22 @@
 
 
+/* Header */
 
-
-
+header{
+  border-bottom: 5px solid #FF6200 !important; 
+}
 
 /* Navigation bar */ 
 
 /* General */
-.custonNAV{
+.customNAV{
     position: fixed;
+    
     width: 100%;
     background:url(/images/transparency.png); 
-    background-color: transparent !important;
+    background-color: transparent !important; 
     background-size: cover;
+    
     z-index: 10;
     
   } /* Setting the `z-index value` for the `customNav` class ensures that the navbar is above other content on the page. */
@@ -20,13 +24,15 @@
   .navbar-nav{
     margin-left: auto;
     margin-right: 0 !important;
-    
+       
   }
   
   .navbar-brand img{
     padding-right: 15px;
     width: 80px;
     height: auto;
+    
+    
     }
   
   .nav-item{
@@ -51,11 +57,16 @@
     background: url(/images/transparency.png);
     background-color: transparent !important;
     background-size: cover;
+   
+  }
+
+  .dropdown-item{
+    color: white;
   }
   
   .dropdown-item:focus, .dropdown-item:hover{
-    color: #16181b;
-    text-decoration: none;
-    background: gray;
+    color: orangered;
+       text-decoration: none;
+    background: whitesmoke;
   }
 
