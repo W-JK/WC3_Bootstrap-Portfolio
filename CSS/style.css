@@ -144,7 +144,7 @@ nav {
     float: left;
   }
   
-  .projects .container-right {
+  main .projects .container-right {
     display: flex;
     flex-wrap: wrap;
   }
