@@ -7,35 +7,27 @@
 /* Navigation bar */ 
 
 /* General */
-nav {
-  border-bottom: 5px solid #FF6200 !important; 
-  
-  
-     
-  }
+/* nav {
+   border-bottom: 2px aliceblue solid  !important;  /* color sheme change from dark with orange #FF6200 
+        
+  } */
 
 
 .customNAV{
- 
-
-    width: 100%;
-    background:url(/images/transparency.png); /* ?change to black? */
+     width: 100%;
+     background-color: aliceblue;
+    /* background:url(/images/transparency.png); */ /* ?change to black? */ 
     background-color: transparent !important; 
     background-size: cover;
     
     z-index: 10;
-
-    
-    
-
-
-    
+         
   } /* Setting the `z-index value` for the `customNav` class ensures that the navbar is above other content on the page. */
    
   .navbar-nav{
     margin-left: auto;
     margin-right: 0 !important;
-       
+      
   }
   
   .navbar-brand img{
@@ -65,7 +57,7 @@ nav {
   
   .dropdown-menu{
    
-    background: url(/images/transparency.png);
+    /* background: url(/images/transparency.png); */ /* gray background removed */
     background-color: transparent !important;
     background-size: cover;
    
@@ -77,7 +69,7 @@ nav {
   
   .dropdown-item:focus, .dropdown-item:hover{
     color: orangered;
-       text-decoration: none;
+    text-decoration: none;
     background: whitesmoke;
   }
 
@@ -289,39 +281,19 @@ nav {
   }
 
 /* footer  */
-  
 .footer {
-  background: #061D25;
   padding: 10px 0;
   position: absolute;
-  width: 100%;
   height: 100px;
-  line-height: 60px;
+  width: 100%;
+  align-items: baseline;
 }
-.footer a {
-  color: #70726F;
-  font-size: 20px;
-  padding: 10px;
-  border-right: 1px solid #70726F;
-  transition: all .5s ease;
+.mb-4 {
+margin-bottom: auto !important;
+padding-bottom: 5px;
 }
-.footer a:first-child {
-  border-left: 1px solid #70726F;
-}
-.footer a:hover {
-  color: white;
-}
-/* old dark mode (to be removed)
-footer {
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    line-height: 60px;
-    background-color: black;
-    border-top: 5px solid #FF6200;
-    margin-top: 50px;
-  } */ 
-/* footer - end */
+
+
 
 
 
