@@ -96,6 +96,8 @@ nav {
   align-items: center;
   justify-content: center;
   } 
+
+
   /* jumbotron copy */ 
   .jumboCopy{
     width: 70%;
@@ -108,6 +110,17 @@ nav {
 
   
   /* project-new styling */ 
+
+  .project-new {    
+    width: 100%;
+    display: flex;
+    padding:20px;
+    justify-content: space-around;
+    margin: 10px;
+      }
+
+  /* card set up */
+
   .cardContainer:first-child {
     flex-basis: 100%;
     max-width: 95%;
@@ -127,30 +140,32 @@ nav {
     width:100%;
     margin-right: 0;
     height: auto;
-      
-    } 
+   } 
 
-
-  .project-new {    
-    width: 100%;
-    display: flex;
-    padding:20px;
-    justify-content: space-around;
-    margin: 10px;
-      }
-    
     .card-img-top { 
-   width: 100%;
-   max-height: 220px;
-   object-fit:contain;
-     
-  }
+      width: 100%;
+      max-height: 220px;
+      object-fit:contain;
+      
+     }
+ 
+
+.card .container-right{
+  max-width: 60%;
+  float: left;
+  margin: 15px;
+  
+  
+ 
+}
+    
+
 
  
 
 /* project-new - styling end  */ 
 
-
+/*----------------------------------------------------------------------------*/
 
   /* temp - About and Old Projects */
   main .container {
