@@ -107,25 +107,48 @@ nav {
   }
 
   
+  /* project-new styling */ 
+  .cardContainer:first-child {
+    flex-basis: 100%;
+    max-width: 95%;
+    justify-content:space-around;
+    margin: 20px;
+    margin-right: 0%;
+  }
+
+  .cardContainer:first-child img {
+    height: auto;
+    width: 20% !important;
+    float: left;
+    margin: 15px;}
     
-   
+  
+  .cardContainer:nth-child(2n + 1) {
+    width:100%;
+    margin-right: 0;
+    height: auto;
+      
+    } 
+
+
   .project-new {    
     width: 100%;
     display: flex;
     padding:20px;
     justify-content: space-around;
-    margin:5px;
+    margin: 10px;
       }
     
     .card-img-top { 
    width: 100%;
    max-height: 220px;
    object-fit:contain;
-      
+     
   }
 
+ 
 
-
+/* project-new - styling end  */ 
 
 
 
