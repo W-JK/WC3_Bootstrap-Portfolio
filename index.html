@@ -35,28 +35,31 @@
     
              
     
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portfolioNav" aria-controls="portfolioNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+   
+    <div class="collapse navbar-collapse" id="portfolioNav">
+      <ul class="navbar-nav ">
         <li class="nav-item active">
-          <a class="nav-link" href="#about"> About Me <span class="sr-only">(current)</span></a>
+          <a class="nav-link text-dark" href="#about"> About Me <span class="sr-only">(current)</span></a>
           
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"> Skills Matrix</a>
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="#skillset"> Skills Matrix</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Portfolio
+          <a class="nav-link dropdown-toggle text-light" href="#"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Profesional Experiences
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Project 1</a>
-            <a class="dropdown-item" href="#">Project 2</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" > 
+            <a class="dropdown-item" href="#Card1">Project Management</a>
+            <a class="dropdown-item" href="#Card2">Change Management</a>
+            <a class="dropdown-item" href="#Card3">Business Development</a>
+            <a class="dropdown-item" href="#Card4">Bootcamp : JS</a>
+            <a class="dropdown-item" href="#Card5">Bootcamp: HTML,CSS</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Upcoming Projects</a>
+            <a class="dropdown-item" href="#portfolio">Profesional Experiences</a>
           </div>
         </li>
         
@@ -141,7 +144,7 @@
     <!-- Portfolio container -->
       <div class="class-container-fluid"> <!-- container-fluid -->
         <div>
-          <span> <h3 style="text-align: center;">Profesional Experiences </h3> </span> <!-- Sub Title - Projects -->
+          <span id="portfolio"> <h3 style="text-align: center;">Profesional Experiences </h3> </span> <!-- Sub Title - Projects -->
         </div>
       <div class="row" > <!-- first row start -->
     <!-- Card container's -->
@@ -153,13 +156,13 @@
 
   <!-- Card 1 - Lead Project (large scale, complex, high value)-->
   <div class="cardContainer col-lg-3 col-md-3 col-sm-12"> 
-    <div class="card">
+    <div class="card" id="Card1">
       <div class="card-body" >
         <div class="container-left">
          <img src="images/Automation.JPG" class="card-img-top" alt="Robots delivering devices in Assurant Device Care Center">
         </div>
           <div class="container-right">
-          <h5 class="card-title">Project Management</h5>
+          <h5 class="card-title" >Project Management</h5>
           <p class="card-text">Curently leading robotic process automation (RPA). <br>
             In past I managed various projects in international enviroment. Attained Msc Degree in Project Managemnt </p>
             <p>Marketing video will be added as son as it will be released for public by the company</p>
@@ -174,10 +177,10 @@
 
   <!-- Card 2 -->
   <div class="cardContainer col-lg-3 col-md-3 col-sm-12"> 
-    <div class="card" style="width: 18rem;"> 
+    <div class="card" id="Card2" style="width: 18rem;"> 
     <img src="images/BT Classics.jpg" class="card-img-top" alt="Logo - BT Classics. Classic car restorer ">
     <div class="card-body">
-      <h5 class="card-title"> Change Management </h5>
+      <h5 class="card-title" > Change Management </h5>
       <p class="card-text"> Organisational Change proposal prepared as desideration for Master Deegre. <br>
          Transformational change was implemented on large scale and scope involve simultaneous shift inmission and strategy. Including changes in: company and team structure, busines processes, product portfolio and planning future organisational performance and ROI. </p>
       <a href="https://yellow.place/pl/bt-classics-szczecin-poland" class="btn btn-primary bg-dark"> BT Classic </a>  <!-- color sheme changed to dark -->
@@ -187,7 +190,7 @@
 
     <!-- Card 3-->
     <div class="cardContainer col-lg-3 col-md-3 col-sm-12"> 
-      <div class="card" style="width: 18rem;">
+      <div class="card" id="Card3" style="width: 18rem;">
       <img src="images/busines pexels-fauxels-318429.jpg" class="card-img-top" alt="Team working on busines development with a business plan in center of the scene">
       <div class="card-body">
         <h5 class="card-title"> Business Development  </h5>
@@ -200,7 +203,7 @@
 
   <!-- Card 4 -->
   <div class="cardContainer col-lg-3 col-md-3 col-sm-12"> 
-    <div class="card" style="width: 18rem;">
+    <div class="card" id="Card4" style="width: 18rem;">
     <img src="images/calc.jpg" class="card-img-top" alt="Bootcamp JavaScrip Project: calculator">
     <div class="card-body">
     <h5 class="card-title"> JavaScript </h5>
@@ -214,7 +217,7 @@
 
   <!-- Card 5 -->
   <div class="cardContainer col-lg-3 col-md-3 col-sm-12"> 
-    <div class="card" style="width: 18rem;">
+    <div class="card" id="Card5" style="width: 18rem;">
     <img src="images/1st portfolio.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title"> Bootcamp: HTML,CSS </h5>
@@ -235,9 +238,9 @@
 
     <!-- Old Project Section -->
 
-    <section class="skills" alt="My Projects Portfolio">
+    <section class="skills" alt="My Skillset Matrix">
         <div class="container">
-            <div id="projects" class="container-left"><h2> Skills </h2></div>
+            <div id="skillset" class="container-left"><h2> Skills </h2></div>
             <div class="container-right">
                 
 

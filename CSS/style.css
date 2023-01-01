@@ -44,12 +44,13 @@
     margin: 0px 15px;
     
   }
+
+  .nav-link {
+    color: grey !important;
+  }
   
   /* Navigation links */
-  .custonNAV a {
-    color: white !important;
-      
-    }
+ 
   
   .navCTA {
     font-size: 15px;
@@ -103,7 +104,7 @@
   }
 
   
-  /* project-new styling */ 
+  /* project styling */ 
 
   .project-new {    
     width: 100%;
@@ -155,18 +156,17 @@
     
 
 
- 
+/* project - styling end  */ 
 
-/* project-new - styling end  */ 
+/* Skills styling */ 
 
-/*----------------------------------------------------------------------------*/
-
-  /* temp - About and Old Projects */
-  main .container {
+/* main container */ 
+ main .container {
     width: 100%;
     display: flex;
   }
   
+  /* internal containers */
   main .container .container-left {
     height: 100%;
     border-right: 2px solid rgb(3, 27, 71);
@@ -174,113 +174,24 @@
     width: 35%;
   }
   
-  main .container .container-left h2 {
-    font-size: 32px;
-    line-height: 44px;
-    color: rgb( 3, 27, 71);
-  }
   
   main .container .container-right {
     width: 65%;
     float: left;
     padding: 20px 15px;
-  }
+  } 
   
-  main .container .container-right img {
-    height: auto;
-    width: 20%;
-    float: left;
-    margin: 0 15px 15px 0;
-  }
   
   main .container .container-right p {
     float: left;
   }
   
-  main .projects .container-right {
+  main .skills .container-right {
     display: flex;
     flex-wrap: wrap;
   }
-  
-  /* projects - all */
-  
-  .project {
-    flex-basis: calc(50% - 10px);
-    background-color: aqua;
-    height: 300px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    cursor: pointer;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-image: url(../assets/02-space_holder\ left.jpg); /* space holder left */
-  
-  }
-  
-  
-  /* ------------------ Main Project - custom ----------------------- */ 
-  .project:first-child {
-    flex-basis: 100%;
-    margin-bottom: 20px;
-    
-    /* first child - cosmetics */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 5px;
-       
-  
-  }
-  
-  /* ----------------  secondary project's - custom ---------------- */
-  
-  
-  
-  /* other children's - (2n+1) cosmetics */ 
-  .project:nth-child(2n + 1) {
-    margin-right: 0;
-    background-image: url(../assets/02-space_holder\ right.jpg);
-  }
-  
-  
-  /* ------------- project headings ------------ */
-  
-  .project-heading {
-    background-color: black;
-    text-align: center;  
-    color: white;
-    font-size: 16px;
-    border-bottom: 5px solid #FF6200;
-     }
-  
-  .project:first-child .project-heading {
-   
-    background-color: black;
-    text-align: center;  
-    color: white;
-    font-size: 26px;
-    border-bottom:  5px solid #FF6200; }
-    
-  
-  /* ------ single project spec - by project ID ------ */ 
-  
-  #Automation {
-    background-image: url(../assets/IMG_0145.JPG);
-    
-  
-  }
-  
-  #Horiseon {
-    background-image: url(../assets/challenge-WC1.png);
-    background-position:center;
-    background-size:cover;
-    background-repeat: no-repeat;
-  }
-  
-  #Calculator{
-    background-image: url(../assets/02-portfolio-2.jpg );
-  }
+
+/* Skills styling - end */
 
 /* footer  */
 .footer {
@@ -306,18 +217,18 @@ padding-bottom: 5px;
 /* ----------------- Media Query ------------ */ 
 @media screen and (max-width: 768px) {
  
-  main .container {
-      flex-direction: column;
+   .container {
+      flex-direction: column; 
   }
-  main .container .container-left {
-      width: 100%;
+   .container .container-left {
+      width: 100% ;
       border-right: none;
       border-bottom: 2px solid purple;
   }
-  main .container .container-right {
+   .container .container-right {
       width: 100%;
   }
-  main .skills{
+   .skills{
       flex-basis: 100%;
       height: 200px;
       margin-bottom: 20px;
