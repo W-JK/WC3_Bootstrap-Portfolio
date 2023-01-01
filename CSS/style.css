@@ -156,15 +156,23 @@
     
 
 
-/* project - styling end  */ 
+/* ---------------- project - styling end ------------------------- */ 
 
-/* Skills styling */ 
+/* ------------------- Skills styling ----------------------------- */ 
+
+/* CONTAINERS */
+
 
 /* main container */ 
  main .container {
     width: 100%;
     display: flex;
   }
+
+/* 
+  .skills .container {
+  box-sizing: border-box;
+}   change nothing */
   
   /* internal containers */
   main .container .container-left {
@@ -173,7 +181,7 @@
     padding: 20px 15px;
     width: 35%;
   }
-  
+ 
   
   main .container .container-right {
     width: 65%;
@@ -190,6 +198,36 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  /* Skillset ikons & progres barr */ 
+ 
+  .skills .resume-section {
+    text-align:start;
+    font-size: 1.2rem;
+    color: #4f4f4f;
+    
+  }
+
+  
+  #skill-bars {
+    width: 80%;
+    margin-left: 10px !important;
+    
+    
+  }
+  
+  .skills .progress-bar,
+  .skills .btn {
+    background-image: linear-gradient(
+      to left,
+      #bfefff,
+      #8dd2f3,
+      #5fb4e8,
+      #3594dc,
+      #1874cd
+    );
+  }
+  
 
 /* Skills styling - end */
 
