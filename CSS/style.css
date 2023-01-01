@@ -206,6 +206,10 @@ margin-bottom: auto !important;
 padding-bottom: 5px;
 }
 
+.btn-outline-secondary:hover{
+  box-shadow: 0 10px 20px gray , 0 4px 8px gray;
+} /* social media - custom shaddows on hoover */
+
 .social-network {
   text-transform: uppercase;
   }
