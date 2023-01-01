@@ -79,7 +79,7 @@
 
 /* Jumbotron */
 .jumbotron{
-  text-align: center; 
+  text-align:left; 
   color: aliceblue;
   background-image: url(/images/TSR.jpg);
   background-size:cover;
