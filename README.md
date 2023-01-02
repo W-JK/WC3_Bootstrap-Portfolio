@@ -9,7 +9,7 @@ Recreating portfolio with the use of a Bootstrap
 
 
 ## Credentials 
-https://fontawesome.com/icons - social icons
+https://fontawesome.com/icons - social & skilset icons (own and BlackNina iconset)
 
 https://getbootstrap.com/
 https://mdbootstrap.com/
