@@ -1,8 +1,4 @@
 
-/* font changes */
-.italic { 
-  font-style: italic; }
-
 
 
 
@@ -196,6 +192,7 @@
   
   main .skills .container-right {
     display: flex;
+    
     flex-wrap: wrap;
   }
 
@@ -212,6 +209,9 @@
   #skill-bars {
     width: 80%;
     margin-left: 10px !important;
+    display:flex !important;
+    flex-direction: column !important;
+    
     
     
   }
