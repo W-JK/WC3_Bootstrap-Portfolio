@@ -210,11 +210,9 @@
     width: 80%;
     margin-left: 10px !important;
     display:flex !important;
-    flex-direction: column !important;
+    flex-direction: column !important;      
     
-    
-    
-  }
+  } /* skill bars customisation - overriding default position required: display settings */
   
   .skills .progress-bar,
   .skills .btn {
