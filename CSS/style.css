@@ -3,16 +3,10 @@
 /* Navigation bar */ 
 
 /* General */
-/* nav {
-   border-bottom: 2px aliceblue solid  !important;  /* color sheme change from dark with orange #FF6200 
-        
-  } */
-
 
 .customNAV{
-     width: 100%;
-     background-color: aliceblue;
-    /* background:url(/images/transparency.png); */ /* ?change to black? */ 
+    width: 100%;
+    background-color: aliceblue;
     background-color: transparent !important; 
     background-size: cover;
     
@@ -54,7 +48,6 @@
   
   .dropdown-menu{
    
-    /* background: url(/images/transparency.png); */ /* gray background removed */
     background-color: transparent !important;
     background-size: cover;
    
@@ -75,7 +68,7 @@
 .jumbotron{
   text-align:left; 
   color: aliceblue;
-  background-image:url(/images/TSR.jpg) !important;
+  background-image:url(../images/TSR.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   height: 600px;
