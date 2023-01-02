@@ -2,6 +2,11 @@
 
 ## Project Lead: Wojciech J. Koloska
 
+WC3 Jumbotron.png
+
+
+
+
 ## Project Descryption: 
 Recreating portfolio with the use of a Bootstrap as a 3rd week Chalenge to fulfill Chalenge cryteria. 
 
