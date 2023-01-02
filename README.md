@@ -13,10 +13,10 @@ Some of the "project/experience cards" hold only placeholder image and descrypti
 
 This source code is available to everyone under the standard MIT license.
 
-This project is availabile under below link:
+This project is available under below link:
  https://w-jk.github.io/WC3_Bootstrap-Portfolio/
 
-Code can be acceset also on Git Hub from the below repository: 
+Code can be accesset also on Git Hub from the below repository: 
 https://github.com/W-JK/WC3_Bootstrap-Portfolio.git
 
 
