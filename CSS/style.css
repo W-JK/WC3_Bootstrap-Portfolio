@@ -75,7 +75,7 @@
 .jumbotron{
   text-align:left; 
   color: aliceblue;
-  background-image:url(/images/TSR.jpg);
+  background-image:url(/images/TSR.jpg) !important;
   background-size:cover;
   background-repeat: no-repeat;
   height: 600px;
