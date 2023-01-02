@@ -246,17 +246,12 @@ padding-bottom: 5px;
 
 
 /* ----------------- Media Query ------------ */ 
-@media screen and (max-width: 1280px){
-  .card, .card-body{
-    width: 100% !important;
-    margin: 5px;
-  }
-}
 
-@media screen and (max-width: 820px) {
+
+@media screen and (max-width: 1024px) {
  
    .container {
-      flex-direction: column; 
+      flex-direction: column !important; 
   }
    .container .container-left {
       width: 100% !important;
@@ -270,9 +265,11 @@ padding-bottom: 5px;
       border-bottom: 2px solid gray;
   }
   
-  .card, .card-body{
+  .cardContainer, .card, .card-body{
     width: 100% !important;
-    margin: 5px;
+    min-width: auto;
+    margin: 5px !important;
+    padding: 5px;
   }
   
 
@@ -284,9 +281,5 @@ padding-bottom: 5px;
   }
 }
 
- 
-
-
-
   
-/* temp end */  
+/* Media Q end */  
