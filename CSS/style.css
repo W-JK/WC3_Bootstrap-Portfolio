@@ -252,12 +252,12 @@ padding-bottom: 5px;
       flex-direction: column; 
   }
    .container .container-left {
-      width: 100% ;
-      border-right: none;
-      border-bottom: 2px solid purple;
+      width: 100% !important;
+      border-right: none !important;
+      border-bottom: 2px solid gray;
   }
    .container .container-right {
-      width: 100%;
+      width: 100% !important;
   }
    .skills{
       flex-basis: 100%;
