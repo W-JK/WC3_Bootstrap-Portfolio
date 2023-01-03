@@ -19,6 +19,12 @@ This project is available under below link:
 Code can be accesset also on Git Hub from the below repository: 
 https://github.com/W-JK/WC3_Bootstrap-Portfolio.git
 
+![Top section with Jumbotron and NavBAR](./images/01_%20Jumbotron_Nav.png)
+!["About me" section with contact details and Profesional Experience/Projects](./images/02_about_me.png)
+!["Skills" section with and footer ](./images/03_Skills_and_footer.png)
+
+
+
 
 
 
